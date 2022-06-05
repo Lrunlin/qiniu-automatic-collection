@@ -1,0 +1,15 @@
+{
+  "name": "oss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "urlencode": "^1.1.0"
+  },
+  "scripts": {
+    "dev": "nodemon --watch index.js index.js"
+  }
+}
